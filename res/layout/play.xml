@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/linear1"
+        android:background="#ff212121"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@id/linearapple"
+            android:padding="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="16.0sp"
+                android:textStyle="bold"
+                android:textColor="#ff01ff29"
+                android:id="@id/textview1"
+                android:padding="8.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APPLE MODE" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:id="@id/linear10"
+                android:padding="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="100.0dip">
+                <ImageView
+                    android:id="@id/imageview2"
+                    android:layout_width="90.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/pngm"
+                    android:scaleType="centerInside" />
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:id="@id/linear12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:textSize="14.0sp"
+                        android:textColor="#ffff7e00"
+                        android:id="@id/textview3"
+                        android:padding="8.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:text="SERVER : " />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:id="@id/linear13"
+                        android:padding="8.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0" />
+                    <TextView
+                        android:textSize="12.0sp"
+                        android:textStyle="bold"
+                        android:textColor="#ffd50000"
+                        android:id="@id/textview4"
+                        android:padding="8.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:text="NOT CONNECTED" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:id="@id/linear14"
+                android:padding="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <Switch
+                    android:textSize="12.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffc700"
+                    android:id="@id/switch2"
+                    android:padding="8.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Melbet" />
+                <Switch
+                    android:textSize="12.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff2196f3"
+                    android:id="@id/switch3"
+                    android:padding="8.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1XBET" />
+            </LinearLayout>
+            <ImageView
+                android:id="@id/imageview1"
+                android:layout_width="wrap_content"
+                android:layout_height="220.0dip"
+                android:src="@drawable/iiis"
+                android:scaleType="center" />
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:id="@id/linear5"
+                android:padding="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@id/up1"
+                    android:layout_width="55.0dip"
+                    android:layout_height="55.0dip"
+                    android:layout_marginRight="5.0dip"
+                    android:src="@drawable/apple1_5"
+                    android:scaleType="centerInside" />
+                <ImageView
+                    android:id="@id/up2"
+                    android:layout_width="55.0dip"
+                    android:layout_height="55.0dip"
+                    android:layout_marginRight="5.0dip"
+                    android:src="@drawable/apple1_5"
+                    android:scaleType="centerInside" />
+                <ImageView
+                    android:id="@id/up3"
+                    android:layout_width="55.0dip"
+                    android:layout_height="55.0dip"
+                    android:layout_marginRight="5.0dip"
+                    android:src="@drawable/apple1_5"
+                    android:scaleType="centerInside" />
+                <ImageView
+                    android:id="@id/up4"
+                    android:layout_width="55.0dip"
+                    android:layout_height="55.0dip"
+                    android:layout_marginRight="5.0dip"
+                    android:src="@drawable/apple1_5"
+                    android:scaleType="centerInside" />
+                <ImageView
+                    android:id="@id/up5"
+                    android:layout_width="55.0dip"
+                    android:layout_height="55.0dip"
+                    android:src="@drawable/apple1_5"
+                    android:scaleType="centerInside" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:id="@id/linear6"
+                android:padding="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/linear8"
+                    android:padding="8.0dip"
+                    android:layout_width="10.0dip"
+                    android:layout_height="fill_parent" />
+                <Button
+                    android:textSize="14.0sp"
+                    android:textColor="#ff000000"
+                    android:id="@id/button1"
+                    android:background="#ffeeeeee"
+                    android:padding="8.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37.0dip"
+                    android:text="PLAY AGAIN"
+                    android:layout_weight="1.0" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/linear7"
+                    android:padding="8.0dip"
+                    android:layout_width="20.0dip"
+                    android:layout_height="fill_parent" />
+                <Button
+                    android:textSize="14.0sp"
+                    android:textColor="#ff000000"
+                    android:id="@id/button2"
+                    android:background="#fff5f5f5"
+                    android:padding="8.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37.0dip"
+                    android:text="SHOW APPLE"
+                    android:layout_weight="1.0" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/linear9"
+                    android:padding="8.0dip"
+                    android:layout_width="10.0dip"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/linear16"
+                android:padding="8.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+            <Switch
+                android:textSize="12.0sp"
+                android:textColor="#ff01ff29"
+                android:gravity="center"
+                android:layout_gravity="center|left"
+                android:id="@id/switch1"
+                android:padding="8.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CRASH MODE" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/linear17"
+                android:padding="8.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:id="@id/linear18"
+                android:padding="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="12.0sp"
+                    android:textColor="#ffffffff"
+                    android:id="@id/textview5"
+                    android:paddingLeft="8.0dip"
+                    android:paddingTop="8.0dip"
+                    android:paddingBottom="8.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Promo code : SPECIAL 91\nhttps://t.me/APPLE_CRASH_HACK11" />
+                <TextView
+                    android:textSize="12.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff4caf50"
+                    android:id="@id/textview6"
+                    android:paddingLeft="5.0dip"
+                    android:paddingTop="8.0dip"
+                    android:paddingRight="8.0dip"
+                    android:paddingBottom="8.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="https://t.me/APPLE_CRASH_HACK11" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/linearcrash"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:id="@id/linear19"
+                android:padding="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:textSize="16.0sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffff7e00"
+                    android:id="@id/textview7"
+                    android:padding="8.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CRASH MODE" />
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:id="@id/linear20"
+                    android:padding="8.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100.0dip">
+                    <ImageView
+                        android:id="@id/imageview9"
+                        android:layout_width="90.0dip"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/pngm"
+                        android:scaleType="centerInside" />
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:id="@id/linear30"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                        <TextView
+                            android:textSize="14.0sp"
+                            android:textColor="#ffff7e00"
+                            android:id="@id/textview8"
+                            android:padding="8.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10.0dip"
+                            android:text="SERVER : " />
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:id="@id/linear31"
+                            android:padding="8.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.0" />
+                        <TextView
+                            android:textSize="12.0sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffd50000"
+                            android:id="@id/textview9"
+                            android:padding="8.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10.0dip"
+                            android:text="NOT CONNECTED" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:id="@id/linear21"
+                    android:padding="8.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <Switch
+                        android:textSize="12.0sp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffc700"
+                        android:id="@id/switch5"
+                        android:padding="8.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Melbet" />
+                    <Switch
+                        android:textSize="12.0sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff2196f3"
+                        android:id="@id/switch6"
+                        android:padding="8.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1XBET" />
+                </LinearLayout>
+                <ImageView
+                    android:id="@id/imageview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200.0dip"
+                    android:src="@drawable/iiis"
+                    android:scaleType="centerCrop" />
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:id="@id/linear22"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="30.0sp"
+                        android:textColor="#ffff4a01"
+                        android:id="@id/textview2"
+                        android:padding="8.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="X 0.00" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:id="@id/linear23"
+                    android:padding="8.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:id="@id/linear27"
+                        android:padding="8.0dip"
+                        android:layout_width="10.0dip"
+                        android:layout_height="fill_parent" />
+                    <Button
+                        android:textSize="14.0sp"
+                        android:textColor="#ff000000"
+                        android:id="@id/button3"
+                        android:background="#ffeeeeee"
+                        android:padding="8.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="37.0dip"
+                        android:text="RESTART"
+                        android:layout_weight="1.0" />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:id="@id/linear28"
+                        android:padding="8.0dip"
+                        android:layout_width="20.0dip"
+                        android:layout_height="fill_parent" />
+                    <Button
+                        android:textSize="14.0sp"
+                        android:textColor="#ff000000"
+                        android:id="@id/button4"
+                        android:background="#fff5f5f5"
+                        android:padding="8.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="37.0dip"
+                        android:text="PREDICT"
+                        android:layout_weight="1.0" />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:id="@id/linear29"
+                        android:padding="8.0dip"
+                        android:layout_width="10.0dip"
+                        android:layout_height="fill_parent" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/linear24"
+                    android:padding="8.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0" />
+                <Switch
+                    android:textSize="12.0sp"
+                    android:textColor="#ff01ff29"
+                    android:gravity="center"
+                    android:layout_gravity="center|left"
+                    android:id="@id/switch4"
+                    android:padding="8.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APPLE MODE " />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/linear25"
+                    android:padding="8.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0" />
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:id="@id/linear26"
+                    android:padding="8.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="12.0sp"
+                        android:textColor="#ffffffff"
+                        android:id="@id/textview10"
+                        android:paddingLeft="8.0dip"
+                        android:paddingTop="8.0dip"
+                        android:paddingBottom="8.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Promo code : SPECIAL 91\nhttps://t.me/APPLE_CRASH_HACK11" />
+                    <TextView
+                        android:textSize="12.0sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff4caf50"
+                        android:id="@id/textview11"
+                        android:paddingLeft="5.0dip"
+                        android:paddingTop="8.0dip"
+                        android:paddingRight="8.0dip"
+                        android:paddingBottom="8.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="https://t.me/APPLE_CRASH_HACK11" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
