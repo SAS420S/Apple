@@ -1,0 +1,59 @@
+Signature-Version: 1.0
+Created-By: Android Gradle 8.0.2
+SHA-256-Digest-Manifest: gcyoeMcCyr6WYFPPkUo2ddHogkjwwGGiWUIid1fFakc=
+X-Android-APK-Signed: 2,3
+
+Name: AndroidManifest.xml
+SHA-256-Digest: 59tC2M3w9yI93k8iWmPJ0TRmvCwMthK2Co0qHG0x9Wg=
+
+Name: assets/fonts/fonts.ttf
+SHA-256-Digest: BiZk38qOYTylbF7TisGlG3yn1Mao7moWlRhQHH+SEj4=
+
+Name: classes.dex
+SHA-256-Digest: GRnGv4ZrxbNSW/5n69ox5XNsgpal0KdC2sgFpHqsSRc=
+
+Name: classes2.dex
+SHA-256-Digest: XkRmt15S0vnk/nqkDdcWnVtg0tJgPNK46jtxe3zwXQQ=
+
+Name: res/drawable-xhdpi-v4/app_icon.png
+SHA-256-Digest: 8CNGJk1SJvDadT9iBIfEvZfbktOcD9CbZEHm4On38jg=
+
+Name: res/drawable-xhdpi-v4/apple1_4.png
+SHA-256-Digest: wOwjaEhCxKi3Cp1mnlmKsg9B8bUqUXcj6bDGzE2+BpA=
+
+Name: res/drawable-xhdpi-v4/apple1_5.png
+SHA-256-Digest: to0M0ypUpht+38cd0RVKGbGyy8pe2O+lEL060yuwxZQ=
+
+Name: res/drawable-xhdpi-v4/default_image.png
+SHA-256-Digest: +4HhjNnu8WbPv8eQioio4WBtgXhE8xrrZxc/Rgp0ZoM=
+
+Name: res/drawable-xhdpi-v4/iiis.png
+SHA-256-Digest: iAB56qKj907LsISKYxl31anaIDY+PoX++JBYyS+DPZQ=
+
+Name: res/drawable-xhdpi-v4/pngm.png
+SHA-256-Digest: yDH4QNTkKBCcV+0sPcP9sh/KBUzDQRFevDllNJipeNI=
+
+Name: res/drawable-xhdpi-v4/poi.png
+SHA-256-Digest: ZQY4bTkAARIK+L7zhgORbIs8prWzmFUtJJVles/ZEl8=
+
+Name: res/drawable-xhdpi-v4/poii.png
+SHA-256-Digest: tiJP4+3vyIv3dIVVzeR+geAcZW9WnUfOFvR+AdOJThk=
+
+Name: res/drawable-xhdpi-v4/xkkx.png
+SHA-256-Digest: /gmwQ/6eaFeuUk+VgrCGSi+efnsQo9maqw541uxp/UE=
+
+Name: res/drawable-xhdpi-v4/xxx.png
+SHA-256-Digest: nbq+Z4WAb7TEacbhUSOEeJOpDyouOKf/7HJWLJdBLGU=
+
+Name: res/layout/home.xml
+SHA-256-Digest: ogcG8TNpN0A6XQ2c0FQ6pcW2542n6Wr8hm3Y9keBENs=
+
+Name: res/layout/main.xml
+SHA-256-Digest: hIadjs06nFX6yczHVduUz4NiKECgMjOBadeTCMoF1Dc=
+
+Name: res/layout/play.xml
+SHA-256-Digest: WtUYqhSScg0mT6TkVCYOEVuRTezhc0Iw0nfe0SoiHkg=
+
+Name: resources.arsc
+SHA-256-Digest: HiuvBJ7Szh0MjFJIwQAgKwjwqr63FBlXlfm75KEyHiI=
+
